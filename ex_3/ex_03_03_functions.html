@@ -30,7 +30,7 @@
 
         
         function greeting() {
-            return ("Hello!");
+            return ("Shalome!");
         };
         
         document.getElementById("greet").innerHTML = "What do I say when I greet someone: "+ greeting();
@@ -46,14 +46,14 @@
         
         
         var person = {
-            firstName: "Zach",
-            lastName: "Carlos",
+            firstName: "Dylan",
+            lastName: "Stukins",
             age: 22,
-            eyeColor: "brown",
+            eyeColor: "blue",
             fullName: function() {return this.firstName + " " + this.lastName;}
         };
         document.getElementById("method").innerHTML = person.fullName();
-        document.getElementById("method1").innerHTML = person.fullName().toUpperCase() + " loved to play video games.";
+        document.getElementById("method1").innerHTML = person.fullName().toUpperCase() + " loved to play soccer (and video games).";
         
         
         var a = [1, 7, 15, 16, 7, [3, 4]];
