@@ -26,43 +26,43 @@ var myIcon1 = L.icon({
     iconUrl: 'images/icon_1.png',
     iconSize:[30,30],
     iconAnchor: [0,0],
-    popupAnhor: [15,10],
+    popupAnchor: [15,10],
 });
 var myIcon2 = L.icon({
     iconUrl: 'images/icon_2.png',
     iconSize:[30,30],
     iconAnchor: [0,0],
-    popupAnhor: [15,10],
+    popupAnchor: [15,10],
 });
 var myIcon3 = L.icon({
     iconUrl: 'images/icon_3.png',
     iconSize:[30,30],
     iconAnchor: [0,0],
-    popupAnhor: [15,10],
+    popupAnchor: [15,10],
 });
 var myIcon4 = L.icon({
     iconUrl: 'images/icon_4.png',
     iconSize:[30,30],
     iconAnchor: [0,0],
-    popupAnhor: [15,10],
+    popupAnchor: [15,10],
 });
 var myIcon5 = L.icon({
     iconUrl: 'images/icon_5.png',
     iconSize:[30,30],
     iconAnchor: [0,0],
-    popupAnhor: [15,10],
+    popupAnchor: [15,10],
 });
 var myIcon6 = L.icon({
     iconUrl: 'images/icon_6.png',
     iconSize:[30,30],
     iconAnchor: [0,0],
-    popupAnhor: [15,10],
+    popupAnchor: [15,10],
 });
 var myIcon7 = L.icon({
     iconUrl: 'images/icon_7.png',
     iconSize:[30,30],
     iconAnchor: [0,0],
-    popupAnhor: [15,10],
+    popupAnchor: [15,10],
 });
 
 var greatwallPopup = "Great Wall of China<br/><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/20090529_Great_Wall_8185.jpg/256px-20090529_Great_Wall_8185.jpg' alt='Great Wall wiki' width='150px'/>";
