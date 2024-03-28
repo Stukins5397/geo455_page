@@ -21,7 +21,7 @@ var myIcon = new L.Icon({
      iconSize: [20, 20],
      iconAnchor: [10, 15],
      popupAnchor:  [1, -24],
-     iconUrl: 'peaks.png'
+     iconUrl: 'images/peaks.png'
  });
 
 
@@ -137,15 +137,15 @@ mymap.addControl(searchControl);  //inizialize search control
 
 
 var overlayMaps = {
-    "<img src='peaks.png' height=16> Location of Himalayan Peaks": peaks,
-    "<img src='propcircles.png' height=16> Expeditions Proportional Circles": propcircles,
-    "<img src='dead.jpg' height=16> Death Density Heat Map": heat,
-    "<img src='cluster_icon.png' height=16> Clustering of Peaks": clustermarkers,
+    "<img src='images/peaks.png' height=16> Location of Himalayan Peaks": peaks,
+    "<img src='images/propcircles.png' height=16> Expeditions Proportional Circles": propcircles,
+    "<img src='images/dead.jpg' height=16> Death Density Heat Map": heat,
+    "<img src='images/cluster_icon.png' height=16> Clustering of Peaks": clustermarkers,
 };
 
 var legend = L.control.layers(overlayMaps, {}, {collapsed: false}).addTo(mymap);
 
 ///// Full extent zoom button ////
-L.easyButton(('<img src="globe_icon.png", height=85%>'), function(btn, map){
+L.easyButton(('<img src="images/globe_icon.png", height=85%>'), function(btn, map){
     map.setView([28.972443641658437, 84.59443216376953], 8);
 }).addTo(mymap);
