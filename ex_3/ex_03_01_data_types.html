@@ -15,6 +15,7 @@
     <p id="decree"></p>
     <p id="concata"></p>
     <p id="list"></p>
+    <p id ="list1"></p>
     <p id="bool"></p>
 
     <script> //javascript starts here //
@@ -33,19 +34,20 @@
         z--;
         document.getElementById("decree").innerHTML = z;
 
-        var s1 = "Thelonious";
-        var s2 = "Monkious";
+        var s1 = "John";
+        var s2 = "Smith";
         document.getElementById("concata").innerHTML = s1 +" "+ s2;
 
         var list = "<ul>";
-        list += "<li>Grand Piano</li>";
-        list += "<li>Weird Hat</li>";
-        list += "<li>Mustache Cream</li>";
-        list += "<li>Vandoren 3 reeds, blue box</li>"
+        list += "<li>Apples</li>";
+        list += "<li>Oranges</li>";
+        list += "<li>Milk</li>";
+        list += "<li>Eggs</li>"
+        list += "<li>Bread</li>"
         list += "</ul>";
+        
         document.getElementById("list").innerHTML = list; // returns all values in the list
-
-        document.getElementById("bool").innerHTML = 6 > 9;
+        document.getElementById("bool").innerHTML = 16 > 9;
     </script>
 
 </body>
