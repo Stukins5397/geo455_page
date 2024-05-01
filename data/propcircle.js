@@ -1,0 +1,13 @@
+var propcirc ={
+    "type":"FeatureCollection",
+    "features": [
+{"type":"Feature","id":1,"geometry":{"type":"Point","coordinates":[-122.43416244699995,37.770316057000059]},"properties":{"OBJECTID":1,"City":"San Francisco","X":37.770316057271501,"Y":-122.434162446744,"Total_References":3,"Steely":2,"Doobie":1,"Eagle":0}},{"type":"Feature","id":2,"geometry":
+{"type":"Point","coordinates":[-118.23869858399996,34.026145843000052]},"properties":{"OBJECTID":2,"City":"Los Angeles","X":34.026145843334099,"Y":-118.23869858443599,"Total_References":13,"Steely":11,"Doobie":0,"Eagle":2}},
+{"type":"Feature","id":3,"geometry":{"type":"Point","coordinates":[-87.640073485999949,41.868227610000076]},"properties":{"OBJECTID":3,"City":"Chicago","X":41.868227609633998,"Y":-87.640073485837505,"Total_References":3,"Steely":1,"Doobie":2,"Eagle":0}},
+{"type":"Feature","id":4,"geometry":{"type":"Point","coordinates":[-77.036468554999942,38.900605124000037]},"properties":{"OBJECTID":4,"City":"Washinton DC","X":38.900605123805398,"Y":-77.036468555213602,"Total_References":2,"Steely":1,"Doobie":0,"Eagle":1}},
+{"type":"Feature","id":5,"geometry":{"type":"Point","coordinates":[-90.080470374999948,29.955167495000069]},"properties":{"OBJECTID":5,"City":"New Orleans","X":29.955167494940099,"Y":-90.0804703753399,"Total_References":2,"Steely":1,"Doobie":1,"Eagle":0}},{"type":"Feature","id":6,"geometry":
+{"type":"Point","coordinates":[-98.496440328999938,29.423221089000037]},"properties":{"OBJECTID":6,"City":"San Antonio","X":29.4232210893535,"Y":-98.496440328568397,"Total_References":3,"Steely":0,"Doobie":2,"Eagle":1}},{"type":"Feature","id":7,"geometry":
+{"type":"Point","coordinates":[-90.241086422999956,38.631852336000065]},"properties":{"OBJECTID":7,"City":"St. Louis","X":38.631852335798598,"Y":-90.241086422736402,"Total_References":2,"Steely":1,"Doobie":1,"Eagle":0}},{"type":"Feature","id":8,"geometry":
+{"type":"Point","coordinates":[-71.062205120999977,42.357707005000066]},"properties":{"OBJECTID":8,"City":"Boston","X":42.357707005070701,"Y":-71.0622051213129,"Total_References":2,"Steely":2,"Doobie":0,"Eagle":0}},
+{"type":"Feature","id":9,"geometry":{"type":"Point","coordinates":[-73.987589605999972,40.715534997000077]},"properties":{"OBJECTID":9,"City":"New York City","X":40.7155349972697,"Y":-73.987589605700805,"Total_References":13,"Steely":11,"Doobie":2,"Eagle":0}},
+{"type":"Feature","id":10,"geometry":{"type":"Point","coordinates":[-105.94955288299997,35.680524037000055]},"properties":{"OBJECTID":10,"City":"Santa Fe","X":35.6805240373331,"Y":-105.949552883237,"Total_References":3,"Steely":1,"Doobie":0,"Eagle":2}}]}
